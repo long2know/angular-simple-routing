@@ -23,7 +23,7 @@
     "@angular/router": "4.0.2",
     "@angular/upgrade": "4.0.2",
 
-    "angular-in-memory-web-api": "0.0.21",
+    "angular-in-memory-web-api": "0.3.1",
     "core-js": "2.4.1",
     "reflect-metadata": "0.1.10",
     "rxjs": "5.3.0",

@@ -27,7 +27,6 @@ bld/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 wwwroot/lib/
-wwwroot/appScripts
 wwwroot/scripts/
 typings/
 npm-debug.log
@@ -255,3 +254,5 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+/aspnet-core-template/wwwroot/scripts
+/aspnet-core-template/wwwroot/lib
