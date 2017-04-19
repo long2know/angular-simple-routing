@@ -54,7 +54,9 @@ gulp.task('copy', function () {
 });
 
 gulp.task('default', ['lib', 'copy'], function () {
-    gulp.src(paths.scripts).pipe(gulp.dest('wwwroot/scripts'))
+    gulp.src(paths.scripts).pipe(gulp.dest('wwwroot/scripts')).once('end', function () {
+        process.exit();
+    });
 });
 
 //gulp.task('watch', function () {

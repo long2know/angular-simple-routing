@@ -18,6 +18,7 @@
     "aspnet_core_template": {
       "commandName": "Project",
       "launchBrowser": true,
+      "launchUrl": "http://localhost:8080",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
