@@ -57,6 +57,6 @@ gulp.task('default', ['lib', 'copy'], function () {
     gulp.src(paths.scripts).pipe(gulp.dest('wwwroot/scripts'))
 });
 
-gulp.task('watch', function () {
-    gulp.watch('./Client/**/*.*', ['copy']);
-});
+//gulp.task('watch', function () {
+//    gulp.watch('./Client/**/*.*', ['copy']);
+//});
