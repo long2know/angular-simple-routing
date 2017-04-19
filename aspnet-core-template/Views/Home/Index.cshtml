@@ -1,0 +1,25 @@
+﻿@{
+    Layout = "_AngularLayout";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Angular 4</title>
+</head>
+<body>
+    <app-shell></app-shell>
+    <script src="~/lib/npmlibs/core-js/client/shim.js"></script>
+    <script src="~/lib/npmlibs/zone.js/dist/zone.js"></script>
+    <script src="~/lib/npmlibs/reflect-metadata/Reflect.js"></script>
+    <script src="~/lib/npmlibs/systemjs/system.src.js"></script>
+    <script src="~/lib/npmlibs/systemjs/system.src.js"></script>
+
+    <script src="~/scripts/startup.js"></script>
+    <script>
+        System.import('scripts/main.js').then(null, console.error.bind(console));
+    </script>
+
+</body>
+</html>
